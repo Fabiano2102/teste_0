@@ -33,9 +33,14 @@
 </head>
 <body>
     <header>
-        <h1>Volta às aulas</h1>
+        <h1><span>Volta</span> às aulas<del>amanhã</del></h1>
 
-        <p><strong>Para voltar as aulas você precisa de:</strong></p>
+        <p>Para voltar as <strong>aulas</strong> você <em>precisa</em> de:</p>
+        <div>
+            <label for="story">Escreva os materiais aqui:</label>
+            <textarea id="story" name="story" rows="5" cols="43"></textarea>
+        </div>
+        
 
         <label>Qual dia da semana você compra material escolar:</label>
         <select name="dias_da_semana" id="dias_da_semana">
@@ -52,17 +57,30 @@
     <main>
         <div>
             <h2>Materiais Básicos</h2>
-            
+            <menu>
             <ul>
                 <li>Canetas</li>
                 <li>Lápis</li>
                 <li>Borrachas</li>
                 <li>Cadernos</li>
-                <li>Papel em branco</li>
+                <li>Papel em branco
+                    <ol>
+                        <li>Cadernos</li>
+                        <li>Borrachas</li>
+                        <li>Lápis</li>
+                        <li>Papel em branco</li>
+                        <li>Canetas</li>
+                    </ol>
+                </li>
             </ul>
+            </menu>
         </div>
 
     </main>    
+    <menu>
+        <h3>Links para comprar material</h3>
+        <li><a href= "https://www.kalunga.com.br"> Kalunga</a></li>
+    </menu>
 
     <footer>
         <form method="get">
